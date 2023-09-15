@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
-import { ImageGalleryItemImage } from 'components/ImageGalleryItem/ImageGalleryItem.styled';
+import { ImageGalleryItemImage } from '../imageGalleryItem/ImageGalleryItem.styled';
 import { Component } from 'react';
-import { ImageModal } from 'components/Modal/Modal';
+import { ImageModal } from 'components/modal/Modal';
 
 
 const customStyles = {

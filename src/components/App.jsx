@@ -1,9 +1,9 @@
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { Hourglass } from 'react-loader-spinner';
-import { GlobalStyle } from './Global-style';
+import { GlobalStyle } from './GlobalStyle';
 import { Component } from "react";
-import { Searchbar } from "./Searchbar/Searchbar";
+import { Searchbar } from "./searchbar/Searchbar";
 import { ImageGallery } from './imageGallery/ImageGallery';
 import { Button } from './button/Button';
 
