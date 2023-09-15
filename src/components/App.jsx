@@ -1,6 +1,6 @@
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
-import { FallingLines } from 'react-loader-spinner';
+import { Hourglass } from 'react-loader-spinner';
 import { GlobalStyle } from './Global-style';
 import { Component } from "react";
 import { Searchbar } from "./Searchbar/Searchbar";
@@ -55,7 +55,7 @@ loadMoreSearch = () => {
       <GlobalStyle />
       <Toaster />
       <Searchbar changeQuery={this.submitSearch} />
-      <FallingLines
+      <Hourglass
         color="#4fa94d"
         width="100"
         visible={this.state.loading}
